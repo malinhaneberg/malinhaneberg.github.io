@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+<meta charset="utf-8">
+<title>Maskinvare og lagringsmedium</title>
+<link rel="stylesheet" href="stilark.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        
+<div id="header">
+    <div id="header_tekst">
+        <h1>Maskinvare</h1>
+        <h3>Lagringsmedium</h3>
+    </div>
+</div>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="#Hjem" class="active">Hjem</a>
+    <a href="#Lagringsmedium">Lagringsmedium</a>
+    <a href="#HDD">HDD</a>
+    <a href="#SSD">SSD</a>
+    <a href="#Kontaktinfo">Kontakt og mer info</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+<div id="bildediv">
+    <div id="bilde1" class="bilder" >
+        <h3>HDD</h3>
+    </div>
+    <div id="bilde2" class="bilder" >
+        <h3>SSD</h3>
+    </div>
+</div>
+<div id="alltekst">
+<div id="hjem"></div>
+
+<div id=Lagringsmedium>
+    <div class="avsnittoverskrift"><h3>Lagringsmedium</h3></div>
+    <p>Når det gjelder permanent lagring bruker vi et lagringsmedium. Det er ikke en direkte del av prosessoren, siden de ikke arbeider like raskt som RAM-brikkene. Søketiden er tiden det tar å gjøre et lagringsmedium klart for lesing og skriving. Vi bruker to ulike versjoner/former av lagringsmdier, med navn HDD og SSD. Vi benytter oss av en av dem eller en kombinasjon av de to. Det er vesentlig forskjeller mellom de to, som du kan lese mer om videre. </p>
+</div>
+
+<div id="HDD">
+    <div class="avsnittoverskrift"><h3>HDD</h3></div>
+    <p>HDD (harddisk) er en enhet for datalagring. Den benytter en eller flere aluminiumsplater med et magnetiserbart belegg der data lagres i form av magnetflekker. De er i et organisert system av spor og sektorer. Det skrives og leses ved hjelp av et antall skrive/lesehoder. En harddisk består av en roterende plate med en mekanisk arm som henter ut informasjon fra de magnetiske skivene den er bygd opp av. Dermed er det en begrensning på hvilken hastighet HDD kan være/ha. Vanligvis, dersom noen vil ta i bruk et ytre lager, brukes en harddisk. </p>
+</div>
+
+<div id="SSD">
+    <div class="avsnittoverskrift"> <h3>SSD</h3></div>
+    <p>SSD (Solid-state drive) er en elektronisk lagringsehet som erstatter mange mekaniske harddisker (HDD). Dette medfører naturligvis at SSD er raskere da den ikke henter informasjon mekanisk. Fordi minnet er elektronisk går lesing og skriving av data mye raskere enn med en harddisk. Siden de er elektriske, vil dette også gjøre dem mer driftssikre og ha lenger varighet. I tillegg krever den mye mindre energi enn HDD da den ikke har mekaniske lagringsplater og lese-og/eller skrive-armer. Tidligere har det kun blitt brukt HDD, men i senere tid tas SSD i bruk vesentlig mer enn det HDD har blitt tatt i bruk som lagringsmedium, grunnet at kapasiteten er økt og prisen er blitt rimeligere. </p>
+</div>
+
+<div id="Kontaktinfo">
+    <p>Informasjonen på nettsiden er hentet fra store norske leksikon: <a href="https://snl.no/harddisk" target="_blank">HDD</a>, <a href="https://snl.no/SSD-disk" target="_blank">SSD</a>, <a href="https://snl.no/aksesstid" target="_blank">Lagringsmedium</a>. Det er også hentet informasjon fra informasjonsteknologi 1 nettboken: <a href="https://aunivers.lokus.no/fagpakker/realfag/informasjonsteknologi-1-2/it-1/1-digitalt-utstyr-og-innhold/1a-datamaskiner-og-nettverk/datamaskiner-og-komponenter" target="_blank">IT1 nettbok</a></p>
+    <p>Dersom det oppstår noen feil med nettsiden, ta kontakt med Malin Haneberg via:</p>
+    <div class="kontaktliste">
+        <select id="kontakt">
+            <option value="malin.haneberg@gmail.com">malin.haneberg@gmail.com</option>
+            <option value="+47 450 60 544">+47 450 60 544</option>
+        </select>
+   
+    </div>
+</div>
+</div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+    </body>
+    </html>
