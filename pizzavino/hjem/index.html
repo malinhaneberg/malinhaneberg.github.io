@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+      
+        <meta charset="utf-8">
+        <title>Pizzavino</title>
+        <link rel="stylesheet" href="stilark.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <div id="helesiden">
+      <div class="navigasjonsbar" id="helebaren">
+        <a href="../hjem/index.html" class="active">Hjem</a>
+        <a href="../forretter/forretter.html">Forretter</a>
+        <a href="../pasta/pasta.html">Pasta</a>
+        <a href="../tomatbasert_pizza/tomatpizza.html">Tomatbasert Pizza</a>
+        <a href="../hvit_pizza/hvitpizza.html">Hvit Pizza</a>
+        <a href="../om_oss/om_oss.html">Om oss</a> <!-- skriv inn her med google maps hvor man kan trykke på den og om prosessen av pizzaen + kontaktinfo -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div id="velkommen">
+          <h1>Velkommen til Pizzavino Oslo!</h1>
+
+          <br>
+
+          <p>Vil du nyte et autentisk italiensk måltid? Ta turen innom oss i Mathallen og smak på et stykke pizza i Norges lille Italia. Du kan nyte maten her, eller ta den med hjem.</p>
+
+          <br>
+
+          <p>Du finner oss her:</p>
+          <p> <a href="https://www.google.no/maps/place/Pizzavino/@59.9221516,10.7499972,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e6591048d85:0x5058827d3e5e402d!8m2!3d59.9221941!4d10.7517152?hl=no" target="_blank"> Maridalsveien 17A, 0175 Oslo</a></p>
+
+          <br>
+
+          <p>Åpningstidene våres er:</p>
+          <p>Tir-tors: 10-20</p>
+          <p> Fre-lør: 10-21</p>
+          <p> Søn: 11-18</p>
+        </div>
+
+      </div>
+      
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("helebaren");
+    if (x.className === "navigasjonsbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navigasjonsbar";
+    }
+  }
+  </script>
+  </div>
+    </body>
+</html>

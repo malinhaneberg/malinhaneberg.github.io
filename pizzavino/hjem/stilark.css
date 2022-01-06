@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.28), rgba(0,0,0,0)), url(https://images.deliveryhero.io/image/fd-no/LH/n1wl-hero.jpg);
+  height: 900px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  }
+
+.navigasjonsbar {
+    overflow: hidden;
+    background-color:none;
+    /* border: solid black 1px; */
+    width: 100%;
+  }
+  
+  .navigasjonsbar a {
+    float: left;
+    display: block;
+    color: white/* rgb(49, 39, 25) */;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 65px;
+  }
+  
+  .navigasjonsbar a:hover {
+    opacity: 0.5;
+  }
+  
+  .navigasjonsbar a.active {
+    background-color: none;
+    color: white/* rgb(27, 21, 13) */;
+  }
+  
+  .navigasjonsbar .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navigasjonsbar a:not(:first-child) {display: none;}
+    .navigasjonsbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navigasjonsbar.responsive {position: relative;}
+    .navigasjonsbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navigasjonsbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  #velkommen {
+    width: 300px;
+    height: 500px;
+    background-color:rgba(0,0,0,0.5);
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+  }
+
