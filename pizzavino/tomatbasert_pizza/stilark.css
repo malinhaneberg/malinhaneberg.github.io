@@ -135,21 +135,21 @@ body {
 .trerader {
     display: flex;
     flex-direction: row;
-    padding: 13px;
-    font-size: 12.5px;
+   /*  padding: 13px; */
+    font-size: 11px;
     letter-spacing: 0.5px;
-    margin: 13px;
+    margin: 10px;
     }
     
 .rad1 {
-    padding: 13px;
+    padding: 10px;
     }
     
 .rad2 {
-    padding:13px;
+    padding:10px;
     }
 
 .rad3 {
-    padding:13px;
+    padding: 10px;
     }
 
