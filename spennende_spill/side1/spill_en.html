@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spennende Spill</title>
+    <link rel="stylesheet" href="../side1/style.css">
+</head>
+<body>
+  <!-- menybaren -->
+    <nav>
+        <div class="logo">
+          <a href="../hjem/index.html"><h5>Hjem</h5></a>
+        </div>
+      <ul class="andre_sider">
+        <li>
+          <a href="../side1/spill_en.html">Tre på rad</a>
+        </li>
+        <li>
+          <a href="../side2/spill_to.html">Sjekk flaksen</a>
+        </li>
+        <li>
+          <a href="../side3/spill_tre.html">Følg Linjen!</a>
+        </li>
+      </ul>
+
+      <div class="burger">
+        <div class="strek1"></div>
+        <div class="strek2"></div>
+        <div class="strek3"></div>
+      </div>
+      </nav>
+
+    <div id="hoveddiv">
+      <div class="overskrift">
+        <h1>Tre på rad</h1>
+      </div>
+      
+      <div id="spilldiv">
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+        <div class="rute"></div>
+      </div>
+
+      <div id="resultat"></div>
+
+       <!-- Spill igjen knappen som laster siden inn på nytt når den trykkes -->
+      <div id="tilbakestillingKnapp">
+        <button id= "tilbakestill" onClick = "window.location.reload();">Spill Igjen</button>
+        </div>
+    </div>
+
+<!-- refererer til javaScripten  -->
+    <script src= "../side1/java.js"></script>
+</body>
+</html>

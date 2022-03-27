@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spennende Spill</title>
+    <link rel="stylesheet" href="../side3/style.css">
+</head>
+<body>
+  <!-- Menybaren -->
+    <nav>
+        <div class="logo">
+          <a href="../hjem/index.html"><h5>Hjem</h5></a>
+        </div>
+      <ul class="andre_sider">
+        <li>
+          <a href="../side1/spill_en.html">Tre på rad</a>
+        </li>
+        <li>
+          <a href="../side2/spill_to.html">Sjekk flaksen</a>
+        </li>
+        <li>
+          <a href="../side3/spill_tre.html">Følg Linjen!</a>
+        </li>
+      </ul>
+
+      <div class="burger">
+        <div class="strek1"></div>
+        <div class="strek2"></div>
+        <div class="strek3"></div>
+      </div>
+      </nav>
+
+<!-- Hoveddiv med hele spillet samlet i den -->
+      <div id="spilldiv">
+        <div class="overskrift">
+        <h1>Følg linjen</h1>
+        <p class="resultat"> Klarer du komme til mål?</p>
+      </div>
+
+      <!-- mål klasse med mouseover-event som "hentes" ut i javaScript -->
+      <p class="maal" onmouseover="MouseOver(this)">Mål</p>
+      
+      <!-- Lager alle linjene slik og legger tilsvarende element for mouse-enter og mouse-leave -->
+          <div id="border1" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+          <div class="linje1"></div>
+          </div>
+          <div id="border2" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje2"></div>
+          </div>
+          <div id="border3" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje3"></div>
+          </div>
+          <div id="border4" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje4"></div>
+          </div>
+          <div id="border5" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje5"></div>
+          </div>
+          <div id="border6" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje6"></div>
+          </div>
+          <div id="border7" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje7"></div>
+          </div>
+          <div id="border8" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje8"></div>
+          </div>
+          <div id="border9" onmouseenter="MouseEnter(this);" onmouseleave="MouseLeave(this)">
+            <div class="linje9"></div>
+          </div>
+          <p class="start">Start</p>
+
+        <!-- Spill igjen knappen som laster siden inn på nytt når den trykkes -->
+          <div id="tilbakestillingKnapp">
+            <button id= "tilbakestill" onClick = "window.location.reload();">Spill Igjen</button>
+            </div>
+      </div>
+     
+      <!-- refererer til javaScripten min -->
+    <script src= "../side3/java.js"></script>
+</body>
+</html>
