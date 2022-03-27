@@ -41,9 +41,9 @@ const navSlide = () => {
       /* let likt = !vinn && (ruter.includes(innerText(spillerNaa))); */
       if(vinn){
         resultat.innerText = (spillerNaa + " vant!");
-      } if (!vinn && true == 9) {
+      } /* if (!vinn && true == 9) {
        
-      }
+      } */
     
 
     })
@@ -109,13 +109,13 @@ const navSlide = () => {
     console.log(event.target);  
   }); */
 
-  var alleRuter = ruter[0, 1, 2, 3, 4, 5, 6, 7, 8]
+/*   var alleRuter = ruter[0, 1, 2, 3, 4, 5, 6, 7, 8]
 
   alleRuter.addEventListener('click', function handleClick() {
     if (alleRuter.innerText == "X" || "O"){
-      resultat.innerText = ("Prøv en til luke og se om du har mer flaks!");
+      resultat.innerText = ("Likt");
     } else {
-      resultat.innerText = ("Gratulerer med største premien! Klarer du det en gang til?");
+      resultat.innerText = ("");
     }
   });
 
@@ -197,7 +197,7 @@ const navSlide = () => {
   function clickHandler(){ 
    rute9ErTrykket = true;
     console.log(rute9ErTrykket)
-  }
+  } */
 
 /*   if (rute1ErTrykket == rute2ErTrykket){
     console.log("hei")
