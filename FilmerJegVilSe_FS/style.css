@@ -1,0 +1,97 @@
+body {
+background-image: url(https://cdn.pixabay.com/photo/2016/03/23/17/33/curtain-1275200_960_720.png);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif; 
+min-height: 100vh;
+max-height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#hoved {
+width: 60%;                 
+margin: 50px auto;          
+padding: 40px;	             
+background-color: rgba(0, 0, 0, 0.74);
+border: 2px solid black; 
+border-radius: 10px;
+}
+
+h1 {
+font-family: Arial, sans-serif; 
+text-align: center;
+color: white;
+letter-spacing: 1px;
+}
+      
+.listediv {
+display: flex;
+margin: 12px;
+}
+
+.listediv > div {
+border: 2px solid #686868;
+border-radius: 5px;
+background-color: #c9d6d6;
+padding: 15px;
+margin-right: 10px;
+cursor: pointer;
+width: 90%;
+}
+
+.Sett {
+opacity: 0.3;
+}
+      
+input[type="text"]{
+min-width: 130px;
+width: 60%;
+display: flex;
+flex-direction: column;
+margin-top: 2px; 
+margin-bottom: 10px; 
+margin-left: auto;
+margin-right: auto;
+font-family: Arial, Helvetica, sans-serif; 
+color: #666666;
+border: 1px solid rgba(0,0,0,0.1); 
+border-radius: 4px;
+padding: 5px;
+box-sizing: border-box;
+}
+
+button {
+padding: 10px;
+color: white;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 5px;
+background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+outline: none;
+cursor: pointer;
+}
+
+button:active {
+transform: translate(1px,1px);
+}
+
+button.ok {
+background-color: #000000;
+display: flex;
+flex-direction: column;
+margin-top: 2px; 
+margin-bottom: 10px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+button.Fjern {
+background-color: #740808;
+border-radius: 5px;
+}
+
+ input[type="text"]{
+    filter: hue-rotate(-920deg);
+}
