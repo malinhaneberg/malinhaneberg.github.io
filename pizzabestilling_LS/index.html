@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzabestilling</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="hele">
+    <h1>Pizzabestilling</h1>
+
+    <div class="radiodiv">
+    <h3>Pizzabunn</h3>
+    <label>
+        <input type="radio" name="Pizzabunn" value="Vanlig"> Vanlig
+    </label>
+    <label>
+        <input type="radio" name="Pizzabunn" value="Fullkorn"> Fullkorn
+    </label>
+    <label>
+        <input type="radio" name="Pizzabunn" value="Glutenfri"> Glutenfri
+    </label>
+    </div>
+
+    <br>
+
+    <div class="checkboxdiv">
+        <h3>Topping</h3>
+
+        <label>
+            <input type="checkbox" value="Sjampinjong"> Sjampinjong
+        </label>
+        <label>
+            <input type="checkbox" value="Paprika"> Paprika
+        </label>
+        <label>
+            <input type="checkbox" value="Ekstra ost"> Ekstra ost
+        </label>
+        <label>
+            <input type="checkbox" value="Skinke"> Skinke
+        </label>
+    </div>
+
+
+    <div class="tekstboksdiv">
+        <label>
+        <input type="text" id="navn" placeholder="Fornavn Etternavn" required> 
+    </label>
+    <label>
+        <input type="text" id="henteTid" placeholder="Tid for henting: 00.00" required>
+    </label>
+   
+    </div>
+        <button id="bestill">Bestill</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
